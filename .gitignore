@@ -59,6 +59,9 @@ Thumbs.db
 # Kiro specs
 .kiro/
 
+# Project meta files
+CLAUDE.md
+
 # AWS SAM (not used, but just in case)
 .aws-sam/
 samconfig.toml
