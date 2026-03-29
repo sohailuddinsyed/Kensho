@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Environment — never commit real values
+.env
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# CDK
+infrastructure/cdk/cdk.out/
+infrastructure/cdk/.venv/
+infrastructure/cdk/node_modules/
+
+# Node / React dashboard
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+dashboard/.env
+
+# FAISS index files (rebuilt at cold start from DynamoDB)
+*.faiss
+*.index
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro specs
+.kiro/
+
+# AWS SAM (not used, but just in case)
+.aws-sam/
+samconfig.toml
